@@ -1,0 +1,59 @@
+.menu-modal {
+    .modal-dialog {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    
+        .modal-content {
+            height: 100%;
+            max-width: 249px;
+            border-radius: 0;
+            border: none;
+    
+            .responsive-left-bar {
+                .left-bar-col {
+                    width: 100%;
+    
+                    .logo {
+                        margin-top: 70px;
+                        padding: 0px 28px;
+    
+                        small {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 17px;
+                            color: #FFFFFF;
+                        }
+                    }
+    
+                    .menu {
+                        margin-top: 20px;
+    
+                        .menu-item {
+                            padding: 12px 28px;
+                            text-decoration: none;
+    
+                            svg {
+                                width: 20px;
+                                height: 20px;
+                                color: white;
+                            }
+    
+                            small {
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 17px;
+                                color: #FFFFFF;
+                                margin-left: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,213 @@
+.modal-content {
+    // width: 655px;
+    background: #282C38;
+    border: 2px solid #757B8C;
+    border-radius: 20px;
+
+    .modal-header {
+        background: #3C4254;
+        border-radius: 20px 20px 0px 0px;
+        padding: 9px 20px;
+        border-bottom: 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.7876px;
+        line-height: 38px;
+        color: #FFFFFF;
+
+        img {
+            margin-right: 22.7px;
+        }
+
+        svg {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            color: #282C38;
+            background-color: white;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+    }
+
+    .modal-body {
+        h1 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 44px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+        }
+
+        .car-info {
+            padding: 9px 13px;
+            background: #3C4254;
+            border: 1px solid #3C4254;
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 8px;
+
+            p {
+                margin: 0;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #E5E6ED;
+            }
+        }
+
+        .contract {
+            padding: 9px 13px;
+            background: #3C4254;
+            border: 1px solid #3C4254;
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+            border-radius: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #E5E6ED;
+            margin-top: 1px;
+
+            button {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 9px 17px 9px 15px;
+                gap: 8px;
+                background: #AAFF00;
+                border: 1px solid #D1D5DB;
+                border-radius: 6px;
+
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                color: #374151;
+                transition: all 0.3s linear;
+            }
+
+            button:active, button:hover {
+                background-color: transparent;
+                border: 1px solid #AAFF00;
+                color: #AAFF00;
+            }
+        }
+
+        .form-check {
+            .form-check-input:checked {
+                background: #AAFF00;
+                border-color: #AAFF00;
+                color: white;
+            }
+            label {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                display: flex;
+                align-items: center;
+                color: #FFFFFF;
+            }
+        }
+
+        .btn-buy-nft, .btn-continue {
+            padding: 13px 25px;
+            background: #AAFF00;
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+            border-radius: 55px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: #1A1919;
+            border: 1px solid #AAFF00;
+            transition: all 0.3s linear;
+        }
+
+        .btn-buy-nft:hover, .btn-continue:hover {
+            background-color: transparent;
+            color: #AAFF00;
+        }
+
+        .form-label {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+
+        .form-control {
+            padding: 9px 13px;
+            background: #3C4254;
+            border: 1px solid #3C4254;
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+            border-radius: 6px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+
+        .form-control::placeholder {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+
+        .success-svg {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 2px solid white;
+            color: #36A900;
+            background-color: white;
+        }
+
+        .text-success {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #30E061;
+        }
+
+        .text-success-detail {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 25px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            margin: 0;
+        }
+    }
+}

@@ -1,0 +1,109 @@
+.right-bar-nav {
+    padding: 10px;
+    background: #1D1F25;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .btn-responsive {
+        display: none!important;
+    }
+
+    .nav-item:nth-child(1) {
+        border-left: 2px solid #282C38;
+    }
+
+    .nav-item {
+        display: flex;
+        align-items: center;
+        
+        button {
+            background-color: transparent;
+            border: none;
+            border-radius: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s linear;
+            gap: 12.36px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            margin-left: 22.5px;
+            
+            svg {
+                width: 20px;    
+                height: 20px;
+            }
+        }
+        
+        button.btn-dark {
+            padding: 0;
+            margin-right: 22.5px;
+        }
+    
+        button.btn-wallet {
+            background: #3C4254;
+            border-radius: 8px;
+            border: 1px solid #3C4254;
+            margin-left: 0;
+        }
+        button.btn-wallet:hover {
+            border-color: #AAFF00;
+        }
+    
+        button:hover {
+            background-color: transparent;
+            color: #AAFF00;
+        }
+    
+        button.btn-dark:active {
+            background-color: transparent;
+        }
+    
+        button.btn-setting:active {
+            background-color: transparent;
+        }
+    
+        button.btn-wallet:active {
+            background-color: transparent!important;
+            border: 1px solid #AAFF00;
+        }
+    }
+}
+
+@media(max-width: 994px) {
+    .right-bar-nav {
+        justify-content: space-between;
+        
+        .btn-responsive {
+            display: block!important;
+
+            svg {
+                width: 20px;
+                height: 20px;
+                color: white;
+            }
+
+            small {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 15px;
+                color: #FFFFFF;
+            }
+        }
+
+
+        .nav-item {
+            .btn-dark, .btn-setting {
+                display: none;
+            }
+        }
+    }
+}

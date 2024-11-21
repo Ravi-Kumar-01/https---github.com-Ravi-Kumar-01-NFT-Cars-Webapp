@@ -1,0 +1,585 @@
+.car-detail {
+    .sub-menu {
+        background: rgba(47, 50, 65, 0.5);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+        border-radius: 0px 0px 8px 8px;
+        transform: translateY(-3px);
+        height: 44px;
+        display: flex;
+        align-items: center;
+        gap: 16.29px;
+        padding: 0px 24px;
+
+        svg {
+            color: #9CA3AF;
+            width: 44px;
+            height: 44px;
+        }
+
+        svg:nth-child(1) {
+            width: 16px;
+            height: 16px;
+        }
+
+        a, h6 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: right;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #AAFF00;
+        }
+
+        h6 {
+            color: #6B7280;
+            margin-bottom: 0;
+        }
+    }
+
+    .car-detail-book {
+        background: #1D1F25;
+        border-radius: 30px;
+        padding: 20px;
+        .carousel {
+            .carousel-control-prev, .carousel-control-next {
+                span {
+                    border: 2px solid white;
+                    border-radius: 50%;
+                }
+            }
+            .carousel-indicators {
+                bottom: 10%;
+
+                button {
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                }
+                button.active {
+                    background-color: #AAFF00;
+                }
+            }
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        background-color: rgba(0, 0, 0, 0.5);
+                        right: 0%;
+                        left: 0%;
+                        width: 100%;
+                        bottom: 0;
+                        padding: 14px 0px;
+
+                        h3 {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 17px;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+            img {
+                border-radius: 20px 20px 0px 0px;
+            }
+        }
+
+        .car-desc {
+            margin-top: 32.5px;
+            font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 160%;
+            color: #FFFFFF;
+            opacity: 0.5;
+        }
+
+        .car-name {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            color: #FFFFFF;
+        }
+
+        .car-feature {
+            padding: 14px 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            opacity: 0.7;
+            border-bottom: 1px solid rgba(47, 50, 65, 0.5);
+        }
+
+        .buy-nft {
+            h1 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 30px;
+                line-height: 36px;
+                color: #E4E6ED;
+            }
+
+            button {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 9px 17px;
+                width: 122px;
+                height: 38px;
+                background: #AAFF00;
+                box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+                border-radius: 6px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                color: #1A1919;
+                border: 1px solid #AAFF00;
+                transition: all 0.3s linear;
+                margin: 55px 0px;
+            }
+
+            button:hover {
+                background-color: transparent;
+                color: #AAFF00;
+            }
+        }
+
+        .nft-rate {
+            button {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 4px 10px;
+                gap: 10px;
+                width: 70px;
+                height: 28px;
+                background: #AAFF00;
+                border-radius: 55px;
+                border: 1px solid #AAFF00;
+                font-family: 'Plus Jakarta Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 140%;
+                text-align: center;
+                text-transform: uppercase;
+                color: #282C38;
+                transition: all 0.3s linear;
+            }
+
+            button:hover {
+                background-color: transparent;
+                color: #AAFF00;
+            }
+        }
+
+        .nft-currency {
+            margin-top: 55px;
+            .nft-return, .nft-term {
+                background: #282C38;
+                border-radius: 8px;
+                padding: 8px;
+                display: flex;
+                align-items: center;
+                gap: 14px;
+
+                p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: #FFFFFF;
+                    margin-bottom: 0;
+                }
+
+                p:nth-child(2) {
+                    background-color: #252525;
+                    border-radius: 55px;
+                    padding: 10px;
+                }
+            }
+
+        }
+
+        .car-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .info {
+                display: flex;
+                justify-content: space-between;
+                flex: 1 0;
+                border-bottom: 1px solid rgba(47, 50, 65, 0.5);
+                padding: 40.5px 0px;
+
+                div {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-transform: capitalize;
+                    color: #E5E6ED;
+                    opacity: 0.7;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+
+    .calculator {
+        padding: 20px;
+        background-color: #1D1F25;
+        border-radius: 30px;
+
+        .title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+        }
+
+        .percent {
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+                color: #E4E6ED;
+                margin-bottom: 0;
+            }
+        }
+
+        .progress {
+            height: 7.93px;
+            background: #ffffff1a;
+            margin-top: 10px;
+
+            .progress-bar {
+                background-color: #AAFF00;
+            }
+        }
+
+        .calculator-form {
+            label {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                color: #757B8C;
+            }
+            input {
+                padding: 9px 13px;
+                background: #282C38;
+                border: 1px solid #282C38;
+                box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+                border-radius: 6px;
+                color: #E5E6ED;
+            }
+            input::placeholder {
+                color: #E5E6ED;
+            }
+
+            .btn-estimate {
+                padding: 9px 17px;
+                background: #AAFF00;
+                box-shadow: 1px 2px rgba(0, 0, 0, 0.05);
+                border-radius: 6px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                color: #1A1919;
+                border: 1px solid #AAFF00;
+                transition: all 0.3 linear;
+            }
+
+            .btn-estimate:hover {
+                background-color: transparent;
+                color: white;
+            }
+        }
+    }
+
+    .car-milestones {
+        padding: 20px;
+        background-color: #1D1F25;
+        border-radius: 30px;
+        height: 100%;
+
+        .title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+        }
+
+        .steps {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .step {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            margin-bottom: 30px;
+
+            svg {
+                color: #AAFF00;
+                width: 32px;
+                height: 32px;
+            }
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    .car-detail {
+        .car-detail-book {
+            background: #1D1F25;
+            border-radius: 30px;
+            padding: 20px;
+            .carousel {
+                .carousel-control-prev, .carousel-control-next {
+                    span {
+                        border: 2px solid white;
+                        border-radius: 50%;
+                    }
+                }
+                .carousel-indicators {
+                    bottom: 10%;
+    
+                    button {
+                        width: 8px;
+                        height: 8px;
+                        border-radius: 50%;
+                    }
+                    button.active {
+                        background-color: #AAFF00;
+                    }
+                }
+                .carousel-inner {
+                    .carousel-item {
+                        .carousel-caption {
+                            background-color: rgba(0, 0, 0, 0.5);
+                            right: 0%;
+                            left: 0%;
+                            width: 100%;
+                            bottom: 0;
+                            padding: 14px 0px;
+    
+                            h3 {
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 14px;
+                                line-height: 17px;
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+                img {
+                    border-radius: 20px 20px 0px 0px;
+                }
+            }
+    
+            .car-desc {
+                margin-top: 32.5px;
+                font-family: 'Plus Jakarta Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 160%;
+                color: #FFFFFF;
+                opacity: 0.5;
+            }
+    
+            .car-name {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 44px;
+                color: #FFFFFF;
+            }
+    
+            .car-feature {
+                padding: 14px 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                text-transform: capitalize;
+                color: #FFFFFF;
+                opacity: 0.7;
+                border-bottom: 1px solid rgba(47, 50, 65, 0.5);
+            }
+    
+            .buy-nft {
+                h1 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 30px;
+                    line-height: 36px;
+                    color: #AAFF00;
+                }
+            }
+    
+            .nft-rate {
+                button {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 4px 10px;
+                    gap: 10px;
+                    width: 70px;
+                    height: 28px;
+                    background: #AAFF00;
+                    border-radius: 55px;
+                    border: 1px solid #AAFF00;
+                    font-family: 'Plus Jakarta Sans';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 140%;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #282C38;
+                    transition: all 0.3s linear;
+                }
+    
+                button:hover {
+                    background-color: transparent;
+                    color: #AAFF00;
+                }
+
+                small {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                }
+            }
+
+            .review {
+                small {
+                    color: #FBBF04;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    margin: 0;
+                }
+            }
+    
+            .nft-currency {
+                margin-top: 55px;
+                .nft-return, .nft-term {
+                    background: #282C38;
+                    border-radius: 8px;
+                    padding: 8px;
+                    display: flex;
+                    align-items: center;
+                    gap: 14px;
+    
+                    p {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 15px;
+                        color: #FFFFFF;
+                        margin-bottom: 0;
+                    }
+    
+                    p:nth-child(2) {
+                        background-color: #252525;
+                        border-radius: 55px;
+                        padding: 10px;
+                    }
+                }
+    
+            }
+    
+            .car-info {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: #2A3034;
+    
+                .info {
+                    display: flex;
+                    justify-content: space-between;
+                    flex: 1 0;
+                    border-bottom: none;
+                    padding: 20px 0px 10px;
+    
+                    div {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        text-transform: capitalize;
+                        color: #E5E6ED;
+                        opacity: 0.7;
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

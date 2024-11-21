@@ -1,0 +1,445 @@
+.dashboard {
+    .cars-map-sort {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        min-width: 170px;
+        height: 40px;
+        background: #1D1F25;
+        border-radius: 55px;
+        cursor: pointer;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+
+        p {
+            margin-bottom: 0;
+        }
+
+        p:nth-child(1) {
+            opacity: 0.4;
+        }
+
+        p:nth-child(2) {
+            display: flex;
+            align-items: center;
+            gap: 22px;
+        }
+    }
+
+    .new-cars-title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-decoration-line: underline;
+        text-transform: capitalize;
+        color: #AAFF00;
+    }
+
+    .new-cars {
+        .car-item {
+            .carousel {
+                .carousel-control-prev, .carousel-control-next {
+                    span {
+                        border: 2px solid white;
+                        border-radius: 50%;
+                    }
+                }
+                .carousel-indicators {
+                    bottom: 10%;
+    
+                    button {
+                        width: 8px;
+                        height: 8px;
+                        border-radius: 50%;
+                    }
+                    button.active {
+                        background-color: #FBBF04;
+                    }
+                }
+                .carousel-inner {
+                    .carousel-item {
+                        .carousel-caption {
+                            background-color: rgba(0, 0, 0, 0.5);
+                            right: 0%;
+                            left: 0%;
+                            width: 100%;
+                            bottom: 0;
+                            padding: 14px 0px;
+    
+                            h3 {
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 14px;
+                                line-height: 17px;
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+            }
+            .content {
+                .car-desc {
+                    a {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 16px;
+                        color: #FFFFFF;
+                        text-decoration: none;
+
+                        button {
+                            background-color: transparent;
+                            border: none;
+                            color: #AAFF00;
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 16px;
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .cars-map {
+        .cars-map-title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 44px;
+            color: #FFFFFF;
+        }
+        
+
+        iframe {
+            border-radius: 20px;
+        }
+    }
+
+    .all-cars {
+        .all-cars-title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 44px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+        }
+
+        .all-cars-navigation {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            gap: 10.75px;
+
+            p {
+                margin-bottom: 0;
+            }
+
+            svg {
+                cursor: pointer;
+            }
+        }
+
+        .car-item {
+            .carousel {
+                .carousel-indicators {
+                    button {
+                        width: 8px;
+                        height: 8px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+            .content {
+                background: #1D1F25;
+                border-radius: 0px 0px 20px 20px;
+                padding: 20px;
+                border-bottom: 1px solid #757B8C;
+                border-left: 1px solid #757B8C;
+                border-right: 1px solid #757B8C;
+
+                img {
+                    border-radius: 20px 20px 0px 0px;
+                }
+
+                .car-currency {
+                    p {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 15px;
+                        color: #E4E6ED;
+                        margin: 0;
+                    }
+
+                    div {
+                        display: flex;
+                        align-items: center;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 15px;
+                        color: #FBBF04;
+                        gap: 0.5rem;
+                    }
+                }
+
+                .progress {
+                    height: 3px;
+                    background-color: #ffffff1a;
+                    border-radius: 28px;
+                    margin-top: 10.5px;
+
+                    .progress-bar {
+                        background-color: #30E0A1;
+                        border-radius: 28px;
+                    }
+                }
+
+                .car-info {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 21.5px;
+
+                    div:nth-child(1) {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #757B8C;
+                    }
+
+                    div:nth-child(2) {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #FFFFFF;
+
+                        .text-red {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 17px;
+                            color: #FA2256;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    .dashboard {
+        .new-cars {
+            display: flex;
+            gap: 10px;
+            overflow: auto;
+            .car-item {
+                position: relative;
+                min-width: 300px;
+
+                .carousel {
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    background-color: #1d1f25;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+
+                    img {
+                        border-radius: 10px;
+                    }
+
+                    .carousel-control-prev {
+                        left: 10px;
+                    }
+                    .carousel-control-next {
+                        right: 10px;
+                    }
+                }
+
+                .content {
+                    border-bottom: 1px solid transparent!important;
+                    border-left: 1px solid transparent!important;
+                    border-right: 1px solid transparent!important;
+                    .car-info {
+                        
+                    }
+                    .car-desc {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 16px;
+                        color: #FFFFFF;
+
+                        button {
+                            background-color: transparent;
+                            border: none;
+                            color: #AAFF00;
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 16px;
+                            padding: 0;
+                        }
+                    }
+                }
+                .btn-dictribution {
+                    position: absolute;
+                    right: 20px;
+                    top: 20px;
+                    padding: 4px 10px;
+                    background: #30E0A1;
+                    border-radius: 55px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 11px;
+                    line-height: 14px;
+                    color: #1E1F25;
+                    border-color: #30E0A1;
+                }
+            }
+
+        }
+
+        .all-cars {
+            .all-cars-title {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 44px;
+                text-transform: capitalize;
+                color: #FFFFFF;
+            }
+    
+            .all-cars-navigation {
+                display: none;
+    
+                p {
+                    margin-bottom: 0;
+                }
+    
+                svg {
+                    cursor: pointer;
+                }
+            }
+    
+            .car-item {
+                display: flex;
+                padding: 10px;
+                background-color: #22242c;
+                border-radius: 10px;
+                .carousel {
+                    width: 50%;
+                    .carousel-indicators {
+                        button {
+                            width: 8px;
+                            height: 8px;
+                            border-radius: 50%;
+                        }
+                    }
+                    .carousel-inner {
+                        border-radius: 10px;
+
+                        .carousel-item {
+                            img {
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+                
+                .content {
+                    width: 50%;
+                    background-color: transparent;
+                    border: none;
+                    padding: 0px 20px;
+
+                    .nft-name {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #FFFFFF;
+                    }
+
+                    .car-currency {
+                        p {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 15px;
+                        }
+                    }
+
+                    .car-info {
+                        margin-top: 10px;
+                        div:nth-child(1) {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 16px;
+                            color: #FFFFFF;
+                            h5 {
+                                margin: 0;
+                            }
+                        }
+
+                        div:nth-child(2) {
+                            font-size: 11px;
+                        }
+                        div:nth-child(2).years {
+                            padding: 4px 10px;
+                            background: #30E0A1;
+                            border-radius: 55px;
+                        }
+
+                        div:nth-child(2).location {
+                            h5 {
+                                margin: 0;
+                                color: #AAFF00;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

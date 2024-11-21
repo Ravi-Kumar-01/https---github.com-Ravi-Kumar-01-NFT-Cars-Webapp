@@ -1,0 +1,118 @@
+.contract {
+    .contracts {
+        .contracts-title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+        }
+
+        table {
+            thead {
+                tr {
+                    height: 57px;
+                    vertical-align: middle;
+
+                    th {
+                        padding: 0px 20px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+            tbody {
+                border-style: hidden;
+                tr {
+                    background-color: transparent;
+                    height: 78px;
+                    border-style: hidden;
+                    border-radius: 8px;
+    
+                    td {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17px;
+                        padding: 20px;
+                    }
+                    td:nth-child(1) {
+                        width: 30%;
+                    }
+                    td:nth-child(2) {
+                        width: 55%;
+                    }
+                    td:nth-child(3) {
+                        width: 15%;
+                    }
+                }
+    
+                td {
+                    color: white;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 17px;
+                    vertical-align: middle;
+
+                    button {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 9px 17px 9px 15px;
+                        gap: 8px;
+                        background: #AAFF00;
+                        border: 1px solid #D1D5DB;
+                        border-radius: 6px;
+
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: #374151;
+                        transition: all 0.3s linear;
+                    }
+
+                    button:active {
+                        background-color: transparent;
+                        border: 1px solid #AAFF00;
+                    }
+                }
+            }
+        }
+    }   
+}
+
+@media(max-width: 576px) {
+    .contract {
+        .contracts {
+            table {
+                tbody {
+                    tr {
+                        td {
+                            font-size: 11px;
+                        }
+                        td:nth-child(1) {
+                            width: 70%;
+                        }
+                        td:nth-child(2) {
+                            width: 40%;
+                        }
+                        td:nth-child(3) {
+                            width: 10%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
